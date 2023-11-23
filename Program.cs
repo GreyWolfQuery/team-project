@@ -4,7 +4,7 @@ public class Program
 {
     private static void Main()
     {
-        Console.WriteLine(ZiskejVetu());
+        VypisVetu();
         VypisPetkrat();
         OpakujInput();
     }
@@ -37,10 +37,10 @@ public class Program
             Console.WriteLine($"{i}. {input}");
     }
 
-    public static string ZiskejVetu()
+    public static void VypisVetu()
     {
         string fullInput = "";
         for (string input; !string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)); fullInput += $"{input} ") ;
-        return fullInput;
+        Console.WriteLine(fullInput);
     }
 }
