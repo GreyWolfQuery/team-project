@@ -45,7 +45,7 @@ public class Program
 
     public static void VypisVetu()
     {
-        string fullInput = "";
+        string fullInput = string.Empty;
         for (string input; !string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)); fullInput += $"{input} ") ;
         Console.WriteLine(fullInput);
     }
