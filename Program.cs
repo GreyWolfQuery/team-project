@@ -5,7 +5,13 @@ public class Program
     private static void Main()
     {
         VypisVetu();
+        Console.ReadKey();
+        Console.Clear();
+
         VypisPetkrat();
+        Console.ReadKey();
+        Console.Clear();
+
         OpakujInput();
     }
 
