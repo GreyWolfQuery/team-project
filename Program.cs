@@ -24,7 +24,6 @@ public class Program
             {
                 Console.Write("Zadej slovo: ");
             } while (string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)));
-
             for (int i = 1; i <= count; ++i)
                 Console.WriteLine($"{i}. {input}");
         }
@@ -37,7 +36,6 @@ public class Program
         {
             Console.Write("Zadej slovo: ");
         } while (string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)));
-
         for (int i = 1; i <= 5; ++i)
             Console.WriteLine($"{i}. {input}");
     }
