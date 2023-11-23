@@ -4,6 +4,10 @@ public class Program
 {
     private static void Main()
     {
-        Console.WriteLine("Ahoj Světe!");
+        string fullInput = "", input;
+
+        for (; !string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)); fullInput += $"{input} ") ;
+
+        Console.WriteLine(fullInput);
     }
 }
