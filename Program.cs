@@ -17,8 +17,7 @@ public class Program
 
     public static void OpakujInput()
     {
-        int count = 1;
-        for (;;++count)
+        for (int count = 1; ; ++count)
         {
             string input;
             do
