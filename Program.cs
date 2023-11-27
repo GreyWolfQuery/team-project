@@ -1,4 +1,4 @@
-﻿namespace Tmp;
+﻿namespace TeamProject;
 
 public class Program
 {
