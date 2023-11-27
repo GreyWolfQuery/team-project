@@ -49,4 +49,9 @@ public class Program
     {
         Console.WriteLine("To jsem ja ondra!! ");
     }
+    private static void Kacka()
+    {
+        Console.WriteLine("To jsem ja kacka!! ");
+    }
 }
+
