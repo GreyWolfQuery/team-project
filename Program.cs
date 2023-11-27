@@ -61,6 +61,7 @@ public class Program
         } while (string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)));
         for (int i = 1; i <= 5; ++i)
             Console.WriteLine($"{i}. {input}");
+        Console.WriteLine("konec");
     }
 
     public static void VypisVetu()
@@ -91,6 +92,16 @@ public class Program
     private static void David()
     {
         Console.WriteLine("Oskare umri!");
+    }
+<<<<<<< HEAD
+    private static void Simon()
+    {
+        Console.WriteLine("Nechci být doma :(");
+=======
+    private static void Sam()
+    {
+        Console.WriteLine("Mam deti ve sklepe!");
+>>>>>>> 06f997ff3d81a65c93d478582ba1a6f2c9756c0b
     }
 }
 
