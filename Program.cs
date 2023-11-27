@@ -66,5 +66,9 @@ public class Program
     {
         Console.WriteLine("Oskare umri!");
     }
+    private static void Sam()
+    {
+        Console.WriteLine("Mam deti ve sklepe!");
+    }
 }
 
