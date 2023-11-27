@@ -4,15 +4,40 @@ public class Program
 {
     private static void Main()
     {
-        VypisVetu();
-        Console.ReadKey();
-        Console.Clear();
+        while (true)
+        {
+            Console.WriteLine("Co Chceš spustit: \n" + "VypisVetu\n" + "VypisPetkrat\n" + "OpakujInput\n" + "Ondra\n" + "Zadej: ");
+            string? Input = Console.ReadLine();
 
-        VypisPetkrat();
-        Console.ReadKey();
-        Console.Clear();
-
-        OpakujInput();
+            if (Input == "VypisVetu")
+            {
+                VypisVetu();
+                Console.ReadKey();
+                Console.Clear();
+            }
+            else if (Input == "VypisPetkrat")
+            {
+                VypisPetkrat();
+                Console.ReadKey();
+                Console.Clear();
+            }
+            else if (Input == "OpakujInput")
+            {
+                OpakujInput();
+                Console.ReadKey();
+                Console.Clear();
+            }
+            else if (Input == "Ondra")
+            {
+                Ondra();
+                Console.ReadKey();
+                Console.Clear();
+            }
+            else
+            {
+                Console.WriteLine("Errr!!!");
+            }
+        }
     }
 
     public static void OpakujInput()
@@ -40,6 +65,7 @@ public class Program
 
     public static void VypisVetu()
     {
+        Console.Write("Zadej prvni slovo: ");
         string fullInput = string.Empty;
         for (string input; !string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)); fullInput += $"{input} ") ;
         Console.WriteLine(fullInput);
