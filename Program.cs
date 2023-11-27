@@ -36,6 +36,7 @@ public class Program
         } while (string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)));
         for (int i = 1; i <= 5; ++i)
             Console.WriteLine($"{i}. {input}");
+        Console.WriteLine("konec");
     }
 
     public static void VypisVetu()
@@ -45,3 +46,4 @@ public class Program
         Console.WriteLine(fullInput);
     }
 }
+
