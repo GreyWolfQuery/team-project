@@ -67,9 +67,15 @@ public class Program
     {
         Console.WriteLine("Oskare umri!");
     }
+<<<<<<< HEAD
     private static void Simon()
     {
         Console.WriteLine("Nechci být doma :(");
+=======
+    private static void Sam()
+    {
+        Console.WriteLine("Mam deti ve sklepe!");
+>>>>>>> 06f997ff3d81a65c93d478582ba1a6f2c9756c0b
     }
 }
 
