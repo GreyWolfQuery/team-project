@@ -44,4 +44,9 @@ public class Program
         for (string input; !string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)); fullInput += $"{input} ") ;
         Console.WriteLine(fullInput);
     }
+
+    private static void Ondra()
+    {
+        Console.WriteLine("To jsem ja ondra!! ");
+    }
 }
