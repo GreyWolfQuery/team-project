@@ -58,5 +58,9 @@ public class Program
     {
         Console.WriteLine("Nažďar!");
     }
+    private static void Oskar()
+    {
+        Console.WriteLine("David je noob!");
+    }
 }
 
