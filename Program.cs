@@ -67,5 +67,9 @@ public class Program
     {
         Console.WriteLine("Oskare umri!");
     }
+    private static void Simon()
+    {
+        Console.WriteLine("Nechci být doma :(");
+    }
 }
 
