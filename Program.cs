@@ -53,5 +53,10 @@ public class Program
     {
         Console.WriteLine("To jsem ja kacka!! ");
     }
+
+    private static void Jirka()
+    {
+        Console.WriteLine("Nažďar!");
+    }
 }
 
