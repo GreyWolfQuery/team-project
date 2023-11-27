@@ -20,10 +20,8 @@ public class Program
         for (int count = 1; ; ++count)
         {
             string input;
-            do
-            {
-                Console.Write("Zadej slovo: ");
-            } while (string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)));
+            do Console.Write("Zadej slovo: ");
+            while (string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)));
             for (int i = 1; i <= count; ++i)
                 Console.WriteLine($"{i}. {input}");
         }
