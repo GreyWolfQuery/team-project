@@ -62,5 +62,9 @@ public class Program
     {
         Console.WriteLine("David je noob!");
     }
+    private static void David()
+    {
+        Console.WriteLine("Oskare umri!");
+    }
 }
 
