@@ -50,32 +50,35 @@ public class Program
     {
         Console.WriteLine("To jsem ja ondra!! ");
     }
+
     private static void Kacka()
     {
         Console.WriteLine("To jsem ja kacka!! ");
     }
-
+    
     private static void Jirka()
     {
         Console.WriteLine("Nažďar!");
     }
+    
     private static void Oskar()
     {
         Console.WriteLine("David je noob!");
     }
+    
     private static void David()
     {
         Console.WriteLine("Oskare umri!");
     }
-<<<<<<< HEAD
+    
     private static void Simon()
     {
         Console.WriteLine("Nechci být doma :(");
-=======
+    }
+    
     private static void Sam()
     {
-        Console.WriteLine("Mam deti ve sklepe!");
->>>>>>> 06f997ff3d81a65c93d478582ba1a6f2c9756c0b
+        Console.WriteLine("Mam deti ve sklepe!"); // Boze proc ? :D
     }
 }
 
