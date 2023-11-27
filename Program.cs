@@ -45,5 +45,27 @@ public class Program
         for (string input; !string.IsNullOrWhiteSpace((input = Console.ReadLine() ?? string.Empty)); fullInput += $"{input} ") ;
         Console.WriteLine(fullInput);
     }
+
+    private static void Ondra()
+    {
+        Console.WriteLine("To jsem ja ondra!! ");
+    }
+    private static void Kacka()
+    {
+        Console.WriteLine("To jsem ja kacka!! ");
+    }
+
+    private static void Jirka()
+    {
+        Console.WriteLine("Nažďar!");
+    }
+    private static void Oskar()
+    {
+        Console.WriteLine("David je noob!");
+    }
+    private static void David()
+    {
+        Console.WriteLine("Oskare umri!");
+    }
 }
 
